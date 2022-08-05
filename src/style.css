@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #F55A5A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    padding: 15px;
+}
+
+.nav--logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 600px;
+}
+
+.nav--logotext {
+    height: 25px;
+    padding-left: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 300px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.card--image {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.card--text {
+    margin-top: 5px;
+}
+
+.card--link {
+    color: #918E9B;
+    margin-left: 14px;
+}
+
+.card--country {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+}
+
+.card--location {
+    margin-right: 6px;
+}
+
+.card--line2 {
+    font-size: 25px;
+}
+
+.card--description {
+    font-family: 'Inter', sans-serif;
+}
